@@ -7,6 +7,7 @@
           <Modal v-if="a" @close-modal="closeModal"/>
           <img  class="pl-[23px] hidden lg:block" src="../assets/location.png" alt="location">
           <p class="uppercase text-[20px] text-[#FFFFFF] pl-9 hidden lg:block">8 981 120-11-17</p>
+          <Language/>
         </div>
         <div>
           <img src="../assets/logo.png" alt="logo">
@@ -24,7 +25,7 @@
 <script setup>
 import { ref } from "vue";
 import Modal from "./sections/modal.vue";
-
+import Language from "./sections/language.vue";
 let a = ref(false);
 
 function openModal() {

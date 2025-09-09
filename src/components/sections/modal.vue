@@ -9,20 +9,20 @@
         <img class="cursor-pointer" @click="$emit('closeModal')" src="../../assets/chevronLeft.png" alt="chevronLeft" />
 
         <div class="pt-[51px]">
-          <p class="uppercase text-[18px] text-white">Кухонные ножи TUOTOWN</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Складные ножи TUOTOWN</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Кухонные ножи QXF</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Точильные камни</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Наборы для BBQ</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Кухонные принадлежности</p>
-          <p class="uppercase text-[18px] text-white pt-[35px]">Истические товары</p>
+          <p class="uppercase text-[18px] text-white">{{$t("modalName")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]">{{$t("modalName2")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]">{{$t("modalName3")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]">{{$t("modalName4")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]">{{$t("modalName5")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]"> {{$t("modalName6")}}</p>
+          <p class="uppercase text-[18px] text-white pt-[35px]">{{$t("modalName7")}}</p>
         </div>
 
         <div class="pt-[53px]">
-          <p class="uppercase text-white font-semibold opacity-60">Новости</p>
-          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">О компании</p>
-          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">Контакты</p>
-          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">Как проехать</p>
+          <p class="uppercase text-white font-semibold opacity-60">{{$t("modalAbout")}}</p>
+          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">{{$t("modalAbout2")}}</p>
+          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">{{$t("modalAbout3")}}</p>
+          <p class="uppercase text-white font-semibold opacity-60 pt-[15px]">{{$t("modalAbout4")}}</p>
         </div>
       </div>
     </div>
